@@ -1,8 +1,16 @@
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
+import Header from "./components/Header";
+import Follower from "./components/Follower";
+import Overview from "./components/Overview";
 
 const App = () => {
-  return <h1>Hello, World</h1>;
+  return (
+    <>
+      <Header />
+      <Follower />
+      <h2>Overview - Today</h2>
+      <Overview />
+    </>
+  );
 };
 
 export default App;

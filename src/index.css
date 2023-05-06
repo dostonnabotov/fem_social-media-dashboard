@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .flex-group {
+    @apply flex flex-wrap gap-1 items-center w-fit;
+  }
+
+  /* .flex-group > * {
+    @apply leading-none;
+  } */
+
+  .grid-flow {
+    @apply grid content-start gap-4;
+  }
+}

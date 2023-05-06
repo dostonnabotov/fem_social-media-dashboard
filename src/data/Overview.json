@@ -1,0 +1,82 @@
+[
+  {
+    "name": "facebook",
+    "title": "Page views",
+    "icon": "/icons/icon-facebook.svg",
+    "amount": 87,
+    "rating": {
+      "trend": "positive",
+      "amount": 3
+    }
+  },
+  {
+    "name": "facebook",
+    "title": "Likes",
+    "icon": "/icons/icon-facebook.svg",
+    "amount": 52,
+    "rating": {
+      "trend": "negative",
+      "amount": 2
+    }
+  },
+  {
+    "name": "instagram",
+    "title": "Likes",
+    "icon": "/icons/icon-instagram.svg",
+    "amount": 5462,
+    "rating": {
+      "trend": "positive",
+      "amount": 2257
+    }
+  },
+  {
+    "name": "instagram",
+    "title": "Profile Views",
+    "icon": "/icons/icon-instagram.svg",
+    "amount": 52000,
+    "rating": {
+      "trend": "positive",
+      "amount": 1375
+    }
+  },
+  {
+    "name": "twitter",
+    "title": "Retweets",
+    "icon": "/icons/icon-twitter.svg",
+    "amount": 117,
+    "rating": {
+      "trend": "positive",
+      "amount": 303
+    }
+  },
+  {
+    "name": "twitter",
+    "title": "Likes",
+    "icon": "/icons/icon-twitter.svg",
+    "amount": 507,
+    "rating": {
+      "trend": "positive",
+      "amount": 553
+    }
+  },
+  {
+    "name": "youtube",
+    "title": "Likes",
+    "icon": "/icons/icon-youtube.svg",
+    "amount": 107,
+    "rating": {
+      "trend": "negative",
+      "amount": 19
+    }
+  },
+  {
+    "name": "youtube",
+    "title": "Total Views",
+    "icon": "/icons/icon-youtube.svg",
+    "amount": 1407,
+    "rating": {
+      "trend": "negative",
+      "amount": 12
+    }
+  }
+]

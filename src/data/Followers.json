@@ -1,0 +1,46 @@
+[
+  {
+    "name": "facebook",
+    "type": "followers",
+    "icon": "/icons/icon-facebook.svg",
+    "username": "@nathanf",
+    "amount": 1987,
+    "rating": {
+      "trend": "positive",
+      "amount": 12
+    }
+  },
+  {
+    "name": "twitter",
+    "type": "followers",
+    "icon": "/icons/icon-twitter.svg",
+    "username": "@nathanf",
+    "amount": 1044,
+    "rating": {
+      "trend": "positive",
+      "amount": 99
+    }
+  },
+  {
+    "name": "instagram",
+    "type": "followers",
+    "icon": "/icons/icon-instagram.svg",
+    "username": "@realnathanf",
+    "amount": 11000,
+    "rating": {
+      "trend": "positive",
+      "amount": 1099
+    }
+  },
+  {
+    "name": "youtube",
+    "type": "subscribers",
+    "icon": "/icons/icon-youtube.svg",
+    "username": "Nathan F.",
+    "amount": 8239,
+    "rating": {
+      "trend": "negative",
+      "amount": 144
+    }
+  }
+]

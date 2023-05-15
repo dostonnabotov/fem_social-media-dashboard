@@ -7,11 +7,63 @@
     @apply flex flex-wrap gap-1 items-center w-fit;
   }
 
-  /* .flex-group > * {
-    @apply leading-none;
-  } */
-
   .grid-flow {
     @apply grid content-start gap-4;
   }
+}
+
+.toggle {
+  --toggle-width: 60px;
+  --toggle-height: 30px;
+  --toggle-offset: 3px;
+
+  --toggle-outer-default: #ddd;
+  --toggle-outer-active: #1c89f0;
+  --toggle-inner-default: #fff;
+  --toggle-inner-active: #fff;
+
+  --toggle-transition: 200ms ease-out;
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+
+  width: var(--toggle-width);
+  height: var(--toggle-height);
+
+  background-color: var(--toggle-outer-default);
+  border-radius: 100vw;
+
+  cursor: pointer;
+  transition: var(--toggle-transition);
+}
+
+.toggle input:checked + label {
+  background-color: var(--toggle-outer-active);
+}
+
+.toggle label::before {
+  content: "";
+  position: absolute;
+  top: var(--toggle-offset);
+  left: var(--toggle-offset);
+  bottom: var(--toggle-offset);
+
+  aspect-ratio: 1 / 1;
+
+  background-color: var(--toggle-inner-default);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  transition: var(--toggle-transition);
+}
+
+.toggle input:checked + label::before {
+  background-color: var(--toggle-inner-active);
+  transform: translateX(calc(var(--toggle-width) - var(--toggle-height)));
 }

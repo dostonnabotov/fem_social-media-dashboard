@@ -13,8 +13,8 @@ const App = () => {
           <Follower {...item} />
         ))}
       </div>
-      <h2 className="text-4xl font-bold mb-4 mt-8">Overview - Today</h2>
-      <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <h2 className="mb-4 mt-8 text-4xl font-bold">Overview - Today</h2>
+      <div className="mb-6 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {OverviewData.map((item) => (
           <Overview {...item} />
         ))}
